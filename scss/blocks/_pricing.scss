@@ -1,0 +1,131 @@
+.pricing {
+
+  &__wrapper {
+    padding-top: 50px;
+    padding-bottom: 28px;
+  }
+
+  &__heading {
+margin-bottom: 10px;
+    font-weight: var(--main-subtitle-weight);
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: -0.01em;
+    color: var(--main-pricing-color);
+  }
+
+  &__paragrph {
+    margin-bottom: 30px;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-pricing-color);
+  }
+
+  &__list {
+    column-gap: 32px;
+  }
+
+  &__item {
+    max-width: 405px;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    border: 0.97561px solid transparent;
+    border-radius: 8px;
+    transition: border 0.6s ease;
+
+    &:hover {
+      border: 0.97561px solid var(--main-link-color);
+    }
+
+    &__heading {
+      margin-bottom: 7px;
+      font-weight: var(--main-subtext-weight);
+      font-size: 20px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      color: var(--main-title-color);
+    }
+
+    &__strong {
+      margin-bottom: 7px;
+      font-weight: var(--main-title-weight);
+      font-size: 28px;
+      line-height: 120%;
+      color: var(--main-title-color);
+    }
+
+    &__text {
+      margin-bottom: 40px;
+      font-weight: var(--main-smoll-weight);
+      font-size: 16px;
+      line-height: 155%;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+    }
+
+    &__paragrph {
+      column-gap: 20px;
+      font-weight: var(--main-smoll-weight);
+      font-size: 16px;
+      line-height: 155%;
+      letter-spacing: 0.02em;
+      color: var(--main-text-color);
+
+      &::before {
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-image: var(--main-pricing-check-icon);
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        content: "";
+      }
+    }
+
+    &__link {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      font-weight: var(--main-smoll-weight);
+      font-size: 15.6098px;
+      line-height: 150%;
+      color: var(--main-link-color);
+      border: 1px solid var(--main-link-color);
+      border-radius: 32px;
+      transition: background-color 0.6s ease;
+
+      &:hover {
+        color: var(--main-dark-title-color);
+        background-color: var(--main-link-color);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pricing {
+    &__wrapper {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  
+    &__heading {
+      margin-bottom: 16px;
+      font-size: 48px;
+      line-height: 120%;
+    }
+  
+    &__paragrph {
+      margin-bottom: 80px;
+      font-size: 16px;
+      line-height: 155%;
+    }
+  
+    &__item {
+      padding: 31px;
+      }
+    }
+  }

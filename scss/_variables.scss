@@ -1,0 +1,41 @@
+:root {
+  --main-title-weight: 800;
+  --main-subtitle-weight: 700;
+  --main-text-weight: 600;
+  --main-subtext-weight: 500;
+  --main-smoll-weight: 400;
+  --main-body-bg: #fff;
+  --main-title-color: #211f25;
+  --main-text-color: #3d3a41;
+  --main-card-color: #f7f5ff;
+  --main-link-color: #ff007a;
+  --main-dark-bg-color: #000;
+  --main-dark-link-color: #ff94c7;
+  --main-dark-title: #fff;
+  --main-dark-title-color: #fff;
+  --main-hero-bg: url("../images/herobg.png");
+  --main-hero-bn-bg: url("../images/playicon.svg");
+  --main-header-img: linear-gradient(63.56deg, #6b50ff 48.13%, #a145ff 100%);
+  --main-signups-bg:#6b50ff;
+--main-pricing-check-icon: url("../images/Check.svg");
+  --mani-protect-bg: #fcfbff;
+  --main-pricing-color: #000;
+--main-corusel-list-bg: #f7f5ff;
+}
+
+.dark {
+  --main-body-bg: #000;
+  --main-hero-bg: url("../images/herobgdark.png");
+  --main-hero-bn-bg: url("../images/playiconhover.svg");
+  --main-header-img: linear-gradient(246.34deg, #9040e3 159.94%, #1a1822 23.79%);
+  --main-signups-bg:  linear-gradient(72.67deg, #1a1822 2.78%, #9040e3 173.27%), #6b50ff;
+  --main-pricing-check-icon: url("../images/Checkdark.svg");
+  --main-title-color: #fff;
+  --main-text-color: #d6d6d6;
+  --main-card-color: #211F25;
+  --main-dark-title-color: #000;
+  --main-link-color: #ff94c7;
+  --mani-protect-bg: #211f25;
+  --main-pricing-color: #fff;
+  --main-corusel-list-bg: #555555;
+}

@@ -1,0 +1,132 @@
+.hero__wrapper {
+  padding-bottom: 80px;
+}
+
+.hero__tex-box {
+  max-width: 737px;
+  padding-top: 60px;
+}
+
+.hero__heading {
+  margin-bottom: 10px;
+  font-weight: var(--main-title-weight);
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.01em;
+  color: var(--main-dark-title);
+}
+
+.hero__paragrph {
+  margin-bottom: 80px;
+  font-weight: var(--main-smoll-weight);
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--main-dark-title);
+}
+
+.hero__link-box {
+  margin-bottom: 80px;
+}
+
+.hero__link {
+  padding: 17px 100px;
+  font-weight: var(--main-text-weight);
+  font-size: 15px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: var(--main-dark-title-color);
+  background-color: var(--main-link-color);
+  border: 2px solid var(--main-link-color);
+  box-shadow: 0px 1px 2px #1018280d;
+  border-radius: 32px;
+}
+
+.hero__img-mobil {
+  max-width: 540px;
+  width: 100%;
+  }
+
+  .hero__img-desktop {
+    max-width: 995px;
+  width: 100%;
+  }
+
+.hero__button {
+  padding: 12px 73px;
+  font-weight: var(--main-text-weight);
+  font-size: 15px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: var(--main-dark-title);
+  border: 2px solid var(--main-dark-title);
+  box-shadow: 0px 1px 2px #1018280d;
+  border-radius: 32px;
+
+  &::after {
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin-right: 0;
+    background-image: var(--main-hero-bn-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+  }
+
+}
+
+.modal-dialog {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.hero__modal-iframe {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+  .hero__wrapper {
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
+  .hero__heading {
+    margin-bottom: 24px;
+    font-size: 45px;
+    line-height: 100%;
+  }
+
+  .hero__paragrph {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .hero__link-box {
+    margin-bottom: 100px;
+  }
+
+  .hero__link {
+    padding: 17px 50px;
+  }
+
+  .hero__button {
+    padding: 10px 19px;
+  }
+
+}
+
+@media only screen and (min-width:900px) {
+  .hero__heading {
+    font-size: 56px;
+    line-height: 120%;
+  }
+
+  .hero__paragrph {
+    font-size: 18px;
+    line-height: 155%;
+  }
+}

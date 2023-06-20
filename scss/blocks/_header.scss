@@ -1,0 +1,76 @@
+@use "../variables"; 
+
+.site-header {
+  background-image: var(--main-hero-bg), var(--main-header-img);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 15px) top, top center;
+  background-size: 800px 1130px, 100% 860px;
+}
+
+.site-header__top {
+  padding-top: 23px;
+  padding-bottom: 23px;  
+}
+
+.site-header__list {
+  column-gap: 40px;
+}
+
+.site-header__link {
+  font-weight: var(--main-subtitle-weight);
+  font-size: 18px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: var(--main-dark-title);
+  transition: opacity 0.6s ease;
+}
+
+.site-header__link:hover {
+  color: var(--main-dark-title);
+  opacity: 0.5;
+  border-bottom: 2px solid var(--main-dark-title);
+}
+
+@media only screen and (min-width: 347px) {
+  .site-header {
+    background-position: calc(50% + 15px) top, top center;
+    background-size: 900px 1120px, 100% 860px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .site-header {
+    background-position: calc(50% + 10px) top, top center;
+    background-size: 900px 1080px, 100% 860px;
+  }
+}
+
+@media only screen and (min-width: 415px) {
+  .site-header {
+    background-position: calc(50% + 5px) top, top center;
+    background-size: 1200px 1005px, 100% 860px;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  .site-header {
+    background-position: calc(50% + 5px) top, top center;
+    background-size: 1200px 1005px, 100% 860px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .site-header {
+    background-position: calc(50% + 35px) top, top center;
+    background-size: 2560px 1200px, 100% 860px;
+  }
+
+  .site-header__top {
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+
+  .site-header__dark {
+    margin-left: 30px;
+  }
+}

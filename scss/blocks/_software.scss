@@ -1,0 +1,105 @@
+.software__wrapper {
+  padding-bottom: 80px;
+}
+
+.software__text-box {
+  max-width: 575px;
+}
+
+.software__heading {
+  margin-bottom: 10px;
+  font-weight: var(--main-subtitle-weight);
+  font-size: 36px;
+  line-height: 42px;
+  color: var(--main-title-color);
+}
+
+.software__paragrph {
+  margin-bottom: 30px;
+  font-weight: var(--main-smoll-weight);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+}
+
+.software__item {
+  max-width: 405px;
+  width: 100%;
+  transition: background-color 0.6s ease;
+  border-radius: 8px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: var(--main-card-color);
+  }
+
+  &:hover .software__item__link {
+    color: var(--main-dark-link-color);
+  }
+}
+
+.software__item__img {
+  height: 250px;
+}
+
+.software__item__heading {
+  margin-bottom: 16px;
+  font-weight: var(--main-subtitle-weight);
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--main-title-color);
+}
+
+.software__item__paragrph {
+  margin-bottom: 40px;
+  font-weight: var(--main-smoll-weight);
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.software__item__link {
+  font-weight: var(--main-subtext-weight);
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+  transition: color 0.6s ease;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .software__wrapper {
+    padding-bottom: 100px;
+  }
+
+  .software__heading {
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+  }
+
+  .software__paragrph {
+    margin-bottom: 80px;
+    line-height: 155%;
+    color: var(--main-text-color);
+  }
+
+  .software__list {
+    column-gap: 32px;
+  }
+
+  .software__item__paragrph {
+    margin-bottom: 40px;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
+}
+

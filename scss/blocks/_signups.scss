@@ -1,0 +1,123 @@
+.signups {
+  background: var(--main-signups-bg);
+
+  &__wrapper {
+    max-width: 890px;
+    width: 100%;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    text-align: center;
+  }
+
+  &__heading {
+    margin-bottom: 10px;
+    font-weight: var(--main-subtitle-weight);
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: var(--main-dark-title);
+  }
+
+  &__paragrph {
+    margin-bottom: 20px;
+    font-weight: var(--main-smoll-weight);
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-dark-title);
+  }
+
+  &__form {
+    margin-bottom: 20px;
+  }
+
+  &__input {
+    max-width: 365px;
+    width: 100%;
+    padding: 12px 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--main-smoll-weight);
+    font-size: 16px;
+    line-height: 150%;
+    color: #222;
+    background-color: var(--main-dark-title);
+    border: none;
+    border-radius: 32px;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      font-family: "Roboto", sans-serif;
+      font-weight: var(--main-smoll-weight);
+      font-size: 16px;
+      line-height: 150%;
+      color: #505050;
+    }
+  }
+
+
+  &__button {
+    padding: 13px 38px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main-dark-title-color);
+    background-color: var(--main-link-color);
+    border: none;
+    border-radius: 32px;
+  }
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--main-smoll-weight);
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--main-dark-title);
+  }
+
+  &__link {
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--main-smoll-weight);
+    font-size: 12px;
+    line-height: 150%;
+    color: var(--main-dark-title);
+  }
+
+}
+
+
+
+@media only screen and (max-width: 536px) {
+  .signups__input {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (min-width: 536px) {
+  .signups__input {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .signups {
+
+    &__wrapper {
+      padding-top: 110px;
+      padding-bottom: 110px;
+    }
+
+    &__heading {
+      margin-bottom: 24px;
+      font-size: 48px;
+
+    }
+
+    &__paragrph {
+      margin-bottom: 44px;
+    }
+  }
+}
